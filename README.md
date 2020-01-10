@@ -1,8 +1,9 @@
-Auto Tweet
+#Auto Tweet
 
-A python script to automate the process of posting tweets
+     A python script to automate the process of posting tweets
+   
 
-Libraries and Requirements
+##Libraries and Requirements
 
      Tweepy - library for twitter API
      Pysocks - send traffic throughs  and HTTP proxy servers
@@ -10,7 +11,7 @@ Libraries and Requirements
      idna- internaltionalized domain name application
      Six -is a Python 2 and 3 compatibility library
 
-How to Run the Script
+###How to Run the Script
 
   install dependencies
   
@@ -18,7 +19,7 @@ How to Run the Script
                   env\Scripts\activate
                   pip install -r requirements.txt
 
-Add a credentials.py in the follwing format 
+####Add a credentials.py in the follwing format 
       Link to creating tweepy [credentials](https://developer.twitter.com)
 
                       ACCESS_TOKEN = "####"
@@ -28,7 +29,7 @@ Add a credentials.py in the follwing format
 
  Adjust the NUM_OF_TWEETS and WAIT_TIME parameter in  script.py. Make sure to not have a very small WAIT_TIME.
 
- Run the script
+ #####Run the script
                           
                           python script.py
 
